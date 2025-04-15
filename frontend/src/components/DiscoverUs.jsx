@@ -8,9 +8,9 @@ function RestaurantPage() {
       {/* Main content - Original desktop layout preserved, responsive for mobile */}
       <div className="flex flex-col lg:flex-row gap-8 items-center pb-32">
         {/* Left column - Text content */}
-        <div className="lg:w-1/2 space-y-4 md:space-y-6 p-4 md:p-6 lg:p-10">
+        <div className="lg:w-1/2 space-y-4 md:space-y-6 px-10 md:p-6 lg:p-10">
           <h2 className="text-[#515151] text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">Ce qui rend Kool Bien unique</h2>
-          <p className="text-[#4f4f4f] text-lg md:text-xl leading-relaxed">
+          <p className="text-[#4f4f4f] text-lg md:text-xl leading-relaxed ">
             c'est avant tout l'harmonie parfaite entre une cuisine traditionnelle algérienne authentique, un accueil
             chaleureux et une ambiance conviviale, créant ainsi une expérience culinaire qui dépasse la simple
             dégustation pour devenir un véritable voyage des sens
@@ -35,10 +35,10 @@ function RestaurantPage() {
             </div>
         {/* Right column - Image and features - Original desktop layout */}
         <div className="lg:w-1/3 flex w-3/4">
-          <div className="bg-[#7e7e7e] rounded-3xl py-6 md:py-10 lg:py-16 px-4 md:pl-6 md:pr-0 lg:pl-28 flex w-full lg:w-auto">
+          <div className="bg-[#7e7e7e] rounded-3xl py-6 md:py-10 lg:py-16 px-4 md:pl-6 lg:pr-0 lg:pl-28 flex w-full lg:w-auto">
             {/* Feature buttons */}
             <div className="w-full flex flex-col gap-4 justify-center">
-              <div className="bg-white rounded-full lg:rounded-l-full lg:rounded-r-none py-2 px-4 flex items-center">
+              <div className="bg-white rounded-full lg:rounded-l-full lg:rounded-r-none py-2 px-3 flex items-center">
                 <div className="bg-[#417295] rounded-full p-2 mr-3">
                   <Globe className="text-white h-5 w-5" />
                 </div>

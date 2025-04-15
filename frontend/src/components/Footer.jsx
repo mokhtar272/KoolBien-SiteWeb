@@ -36,21 +36,18 @@ export const Footer = () => {
             </Link>
             <div className="flex ">
               <Link
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61551253742418#"
                 className=" rounded-full p-2 hover:opacity-90 transition-opacity"
                 aria-label="Facebook"
               >
                 <img src="/facebook.png" alt="" className="w-12"/>
-                
-                {/* <Facebook className="h-6 w-6 text-slate-700" /> */}
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/kool.bien/"
                 className=" rounded-full p-2 hover:opacity-90 transition-opacity"
                 aria-label="Instagram"
               >
                 <img src="/instagram.png" alt=""  className="w-12"/>
-                {/* <Instagram className="h-6 w-6 text-slate-700" /> */}
               </Link>
             </div>
           </div>
