@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navbar } from './components/Navbar';
+import { Footer } from './components/Footer';
 import LandingPage from './pages/LandingPage';
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Contact" element={<h1>Contact</h1>} />
           <Route path="/Commande" element={<h1>Commande</h1>} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )
