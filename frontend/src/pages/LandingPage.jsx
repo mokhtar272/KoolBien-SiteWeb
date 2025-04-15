@@ -1,6 +1,7 @@
 import { TitleImage } from "../components/TitleImage";
 import { DishCard } from "../components/DishCard";
 import RestaurantPage from "../components/DiscoverUs";
+import { ReserverNow } from "../components/ReserverNow";
 const LandingPage = () => {
     return ( 
     <>
@@ -20,11 +21,11 @@ const LandingPage = () => {
             <DishCard />
             <DishCard />
          </div>
-
-        <h1 className="text-4xl font-bold text-center my-6 w-full py-20">Découvrez notre restaurant</h1>
+ </div>
             <RestaurantPage />
+            <ReserverNow />
 
-         </div>
+        
 
 
         
