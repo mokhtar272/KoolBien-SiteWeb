@@ -1,5 +1,6 @@
 import { TitleImage } from "../components/TitleImage";
 import { DishCard } from "../components/DishCard";
+import RestaurantPage from "../components/DiscoverUs";
 const LandingPage = () => {
     return ( 
     <>
@@ -9,7 +10,7 @@ const LandingPage = () => {
                 <h1 className="text-4xl font-bold">Couscous et grillades, un voyage de saveurs.</h1>
             </div>
         </div>
-        <div className="container mx-auto max-w-6xl px-4 py-8">
+        <div className=" mx-auto py-8">
 
        
         <h1 className="text-4xl font-bold text-center my-6">Notre Menu</h1>
@@ -20,7 +21,12 @@ const LandingPage = () => {
             <DishCard />
          </div>
 
-        </div>
+        <h1 className="text-4xl font-bold text-center my-6 w-full py-20">Découvrez notre restaurant</h1>
+            <RestaurantPage />
+
+         </div>
+
+
         
     </> );
 }
