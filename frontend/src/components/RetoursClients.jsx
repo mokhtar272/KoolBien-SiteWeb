@@ -1,9 +1,5 @@
 import { TestimonialCard } from "./TestimobialCard";
-
-
 import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
 
 export const RetoursClients = () => {
     const testimonials = [
@@ -27,7 +23,7 @@ export const RetoursClients = () => {
     
     return (
         <div className="w-full mx-auto my-16">
-        <h1 className="text-4xl font-bold text-center mb-10 text-[#515151]">Retouts Clients</h1>
+        <h1 className="sm:text-4xl text-2xl font-bold text-center mb-10 text-[#515151]">Retours Clients</h1>
         <div className="flex flex-wrap justify-center gap-10">
             {testimonials.map((testimonial) => (
             <TestimonialCard key={testimonial.id} {...testimonial} />

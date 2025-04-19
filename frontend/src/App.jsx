@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import LandingPage from './pages/LandingPage';
+import { Reservation } from './pages/Reservation';
+import { Command } from './pages/Command';
 function App() {
 
   return (
@@ -15,9 +17,9 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage/>} />
           <Route path="/Menu" element={<h1>Menu</h1>} />
-          <Route path="/Reservation" element={<h1>Réservation</h1>} />
+          <Route path="/Reservation" element={<Reservation/>} />
           <Route path="/Contact" element={<h1>Contact</h1>} />
-          <Route path="/Commande" element={<h1>Commande</h1>} />
+          <Route path="/Commande" element={<Command/>} />
         </Routes>
         <Footer />
       </Router>

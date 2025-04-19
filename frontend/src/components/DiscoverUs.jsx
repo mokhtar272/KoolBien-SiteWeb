@@ -22,7 +22,7 @@ function RestaurantPage() {
           <img
             src="/koolbien.png"
             alt="Restaurant Kool Bien"
-            className="w-64 md:w-96 object-cover"
+            className="w-80 md:w-96 object-cover"
           />
         </div>
         {/* Desktop Restaurant image - Only visible on desktop */}
@@ -34,7 +34,7 @@ function RestaurantPage() {
               />
             </div>
         {/* Right column - Image and features - Original desktop layout */}
-        <div className="lg:w-1/3 flex w-3/4">
+        <div className="lg:w-1/3 flex w-11/12">
           <div className="bg-[#7e7e7e] rounded-3xl py-6 md:py-10 lg:py-16 px-4 md:pl-6 lg:pr-0 lg:pl-28 flex w-full lg:w-auto">
             {/* Feature buttons */}
             <div className="w-full flex flex-col gap-4 justify-center">

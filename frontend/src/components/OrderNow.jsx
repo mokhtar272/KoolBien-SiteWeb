@@ -1,6 +1,6 @@
 export const OrderNow = () => {
     return ( 
-      <div className="w-full table mx-auto my-16">
+      <div className="w-full table mx-auto mb-16">
         <div className="relative w-full h-[500px] bg-cover bg-center" style={{ backgroundImage: "url('/landingimage.png')" }}>
           {/* Gradient overlay instead of simple opacity */}
           <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-white opacity-50"></div>

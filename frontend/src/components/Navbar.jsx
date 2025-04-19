@@ -31,11 +31,11 @@ export const Navbar = () => {
                 <li className={isActive("/Reservation")}>
                     <Link to="/Reservation">Réservation</Link>
                 </li>
-                <li className={isActive("/Contact")}>
-                    <Link to="/Contact">Contact</Link>
-                </li>
                 <li className={isActive("/Commande")}>
                     <Link to="/Commande">Commande</Link>
+                </li>
+                <li className={isActive("/Contact")}>
+                    <Link to="/Contact">Contact</Link>
                 </li>
             </ul>
             
@@ -51,19 +51,20 @@ export const Navbar = () => {
             {/* Mobile Menu Dropdown */}
             {isMenuOpen && (
                 <div className="absolute top-full left-0 right-0 bg-white shadow-lg md:hidden">
-                    <ul className="flex flex-col py-2">
-                        <li className={`mx-4 my-2 ${isActive("/Menu")}`}>
+                    <ul className="flex flex-col py-2 font-semibold">
+                        <li className={`mx-4 my-2 text-center ${isActive("/Menu")}`}>
                             <Link to="/Menu" onClick={toggleMenu}>Menu</Link>
                         </li>
-                        <li className={`mx-4 my-2 ${isActive("/Reservation")}`}>
+                        <li className={`mx-4 my-2 text-center ${isActive("/Reservation")}`}>
                             <Link to="/Reservation" onClick={toggleMenu}>Réservation</Link>
                         </li>
-                        <li className={`mx-4 my-2 ${isActive("/Contact")}`}>
-                            <Link to="/Contact" onClick={toggleMenu}>Contact</Link>
-                        </li>
-                        <li className={`mx-4 my-2 ${isActive("/Commande")}`}>
+                        <li className={`mx-4 my-2 text-center ${isActive("/Commande")}`}>
                             <Link to="/Commande" onClick={toggleMenu}>Commande</Link>
                         </li>
+                        <li className={`mx-4 my-2 text-center ${isActive("/Contact")}`}>
+                            <Link to="/Contact" onClick={toggleMenu}>Contact</Link>
+                        </li>
+                        
                     </ul>
                 </div>
             )}
